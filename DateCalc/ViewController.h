@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *outputLabel;
 @property (nonatomic) Boolean dateChooserVisible;
+@property (nonatomic) BOOL isOK;
 
 - (IBAction)showDateChooser:(UIBarButtonItem *)sender;
 
