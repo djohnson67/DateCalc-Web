@@ -15,6 +15,7 @@
 @property (nonatomic) Boolean dateChooserVisible;
 @property (nonatomic) BOOL isOK;
 @property (nonatomic)BOOL isWorking;
+@property (nonatomic)BOOL canPush;
 
 - (IBAction)showDateChooser:(UIBarButtonItem *)sender;
 
